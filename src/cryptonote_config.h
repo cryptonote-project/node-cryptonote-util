@@ -6,11 +6,11 @@
 #define CURRENT_BLOCK_MINOR_VERSION                     0
 
 #define BLOCK_MAJOR_VERSION_1                           1
-#define BLOCK_MAJOR_VERSION_2                           3
+#define BLOCK_MAJOR_VERSION_2                           8
 
-#define COIN                                            ((uint64_t)1000000000000) // pow(10, 12)
-#define DEFAULT_FEE                                     ((uint64_t)10000000000) // pow(10, 10)
+#define COIN                                            ((uint64_t)100) // pow(10, 2)
+#define DEFAULT_FEE                                     ((uint64_t)25) // .25 
 
 
-#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            60
-#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                12
+#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            18
+#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                2
